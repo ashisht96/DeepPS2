@@ -21,16 +21,3 @@ Use the following command to run the code:
 python train.py --obj [object_name] --gpu_ids [gpu_id] --checkpoints_dir [path_to_save_chkpts] --save_dir [path_to_save_visual_results]
 ```
 
-# Citation
-If you find this code useful in your research, please consider cite:
-
-@misc{https://doi.org/10.48550/arxiv.2207.02025,
-  doi = {10.48550/ARXIV.2207.02025},
-  
-  url = {https://arxiv.org/abs/2207.02025},
-  
-  author = {Tiwari, Ashish and Raman, Shanmuganathan},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {DeepPS2: Revisiting Photometric Stereo Using Two Differently Illuminated Images},
