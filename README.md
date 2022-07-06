@@ -11,7 +11,9 @@ This work address the PS2 problem (photometric Stereo with two images) under *un
 
 # Overview
 
-DeepPS2 is implemented in [PyTorch](https://pytorch.org/) and tested with Ubuntu (16.04).
+DeepPS2 is implemented in [PyTorch](https://pytorch.org/) and tested with Ubuntu (16.04). 
+
+Download the [DiLiGenT](https://sites.google.com/site/photometricstereodata/single) Dataset and extract it into the data folder.
 
 Use the following command to run the code:
 
