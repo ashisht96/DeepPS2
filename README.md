@@ -5,4 +5,4 @@
 
 This work address the PS2 problem (photometric Stereo with two images) under *uncalibrated* and *self-supervised* setting.
 
-![alt text] (https://github.com/ashisht96/DeepPS2/blob/main/images/bd.png)
+![alt text](https://github.com/ashisht96/DeepPS2/blob/main/images/bd.png)
