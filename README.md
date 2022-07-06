@@ -4,3 +4,5 @@
 [Ashish Tiwari](https://sites.google.com/iitgn.ac.in/ashishtiwari/home) and [Shanmuganathan Raman](https://iitgn.ac.in/faculty/cse/shanmuganathan)
 
 This work address the PS2 problem (photometric Stereo with two images) under *uncalibrated* and *self-supervised* setting.
+
+(https://github.com/ashisht96/DeepPS2/blob/main/images/bd.png)
