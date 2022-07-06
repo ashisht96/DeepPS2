@@ -6,3 +6,7 @@
 This work address the PS2 problem (photometric Stereo with two images) under *uncalibrated* and *self-supervised* setting.
 
 ![alt text](https://github.com/ashisht96/DeepPS2/blob/main/images/bd.png)
+
+# Dependencies
+
+DeepPS2 is implemented in [PyTorch](https://pytorch.org/) and tested with Ubuntu (16.04).
