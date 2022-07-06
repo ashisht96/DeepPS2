@@ -16,7 +16,7 @@ DeepPS2 is implemented in [PyTorch](https://pytorch.org/) and tested with Ubuntu
 Use the following command to run the code:
 
 ```python
-python train.py --obj [object name] --gpu_ids 0 --checkpoints_dir ./checkpoints --save_dir ./visual_results
+python train.py --obj [object_name] --gpu_ids [gpu_id] --checkpoints_dir [path_to_save_chkpts] --save_dir [path_to_save_visual_results]
 ```
 
 
