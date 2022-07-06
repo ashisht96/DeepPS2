@@ -21,3 +21,6 @@ Use the following command to run the code:
 python train.py --obj [object_name] --gpu_ids [gpu_id] --checkpoints_dir [path_to_save_chkpts] --save_dir [path_to_save_visual_results]
 ```
 
+# Note
+
+This is the preliminary version of the code. Detailed instructions to follow soon!
