@@ -23,5 +23,5 @@ python train.py --obj [object_name] --gpu_ids [gpu_id] --checkpoints_dir [path_t
 
 # Note
 
-This is the preliminary version of the code. Detailed instructions to follow soon!
+This is the preliminary version of the code. More information coming soon!
 
