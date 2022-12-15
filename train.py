@@ -1,6 +1,6 @@
 import torch
 from options  import opts
-from USLE import USLE
+from DeepPS2 import DeepPS2
 from options import opts
 import pdb
 from data_loader import load_dataset
@@ -30,14 +30,23 @@ for epoch in range(args.start_epoch, args.epochs):
 		for key,vals in sample.items():
 			data[key] = vals.cuda()	
 
+		# pdb.set_trace()
+		model.forward(data, epoch) 
+		# print("----------One iteration is successful-----------")
 		
-		model.forward(data, epoch) 		
 
 		total_steps += args.batch
-		epoch_iter += args.batch			
+		epoch_iter += args.batch	
+
+		
+		# print('Forward and Backward pass successful')
+		# if total_steps % args.display_freq == 0:
+		# 	model.get_results(epoch, epoch_iter)
 
 		if total_steps % args.save_latest_freq == 0:
+			# print('saving the latest model (epoch %d, total_steps %d)' %(epoch, total_steps))
 			model.save('latest')
+			model.get_results(epoch, epoch_iter)
 
 	if epoch % args.save_epoch_freq == 0:
 		print('saving the model at the end of epoch %d, iters %d' % (epoch, total_steps))
